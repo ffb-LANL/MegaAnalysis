@@ -18,6 +18,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
@@ -82,7 +83,6 @@
 			<Item Name="forceBendtozero2.vi" Type="VI" URL="../subs/forceBendtozero2.vi"/>
 			<Item Name="integrator2.vi" Type="VI" URL="../subs/integrator2.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
 			<Item Name="MaxEnt03.vi" Type="VI" URL="../subs/MaxEnt03.vi"/>
 			<Item Name="memcof03.vi" Type="VI" URL="../subs/memcof03.vi"/>
 			<Item Name="Neilpad.vi" Type="VI" URL="../subs/Neilpad.vi"/>
@@ -98,6 +98,46 @@
 			<Item Name="Write To Spreadsheet File2.vi" Type="VI" URL="../subs/Write To Spreadsheet File2.vi"/>
 			<Item Name="writebinary.vi" Type="VI" URL="../subs/writebinary.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="MegaAnalysis" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{1A5CEBCC-35C3-439F-A5B6-A8EA8609EEBD}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{16E2D8B9-1E99-431B-B09B-06D01EF36E8E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0350846B-3B18-46CA-9C21-409005D666AC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MegaAnalysis</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MegaAnalysis</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D851E160-8279-421F-A386-12213E96365B}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MegaAnalysis.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MegaAnalysis/MegaAnalysis.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MegaAnalysis/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F8D3E013-824F-454B-9A5E-5C06F2B2DCAA}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MegaAnalysis5.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MegaAnalysis</Property>
+				<Property Name="TgtF_internalName" Type="Str">MegaAnalysis</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Los Alamos National Laboratory</Property>
+				<Property Name="TgtF_productName" Type="Str">MegaAnalysis</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{712F2AA1-8795-4CEA-8474-826A009F22EC}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MegaAnalysis.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
