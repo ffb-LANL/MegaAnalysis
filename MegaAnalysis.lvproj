@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -110,20 +110,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MegaAnalysis</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../2018/builds/LabActor</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D851E160-8279-421F-A386-12213E96365B}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MegaAnalysis.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MegaAnalysis/MegaAnalysis.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../2018/builds/LabActor/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MegaAnalysis/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../2018/builds/LabActor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F8D3E013-824F-454B-9A5E-5C06F2B2DCAA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BF827B5B-5F26-4A69-B8E7-6A09F1DFC9D4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MegaAnalysis5.vi</Property>
@@ -137,6 +137,7 @@
 				<Property Name="TgtF_productName" Type="Str">MegaAnalysis</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{712F2AA1-8795-4CEA-8474-826A009F22EC}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MegaAnalysis.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
