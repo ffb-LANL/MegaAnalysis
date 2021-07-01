@@ -1,6 +1,6 @@
 # MegaAnalysis
 
-MegaAnalysys tool is a prt of the  High Magnetic Field Science Toolset (LANL Copyright No. C20099)
+MegaAnalysys tool is a part of the  High Magnetic Field Science Toolset (LANL Copyright No. C20099)
 
 
  MegaAnalysis is the tool to analyse quatum oscilations at high magnetic fields.
