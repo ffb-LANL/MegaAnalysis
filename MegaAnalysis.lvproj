@@ -115,7 +115,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D851E160-8279-421F-A386-12213E96365B}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MegaAnalysis.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabActor/NI_AB_PROJECTNAME.exe</Property>
@@ -124,7 +124,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabActor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{68BD8EC4-7346-42A5-A327-504EDCC05FF3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1C231506-6141-4404-83D2-77427D7BCC77}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MegaAnalysis5.vi</Property>
